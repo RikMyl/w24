@@ -4,7 +4,7 @@ import { configure, shallow, assert } from "enzyme";
 import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
 import Day from "./Day";
 configure({ adapter: new Adapter() });
-describe('The business card data")', () => {
+describe('Calendar tests")', () => {
   it("Returns one Day component", () => {
     const wrapper = shallow(<Month month="10" />);
     expect(wrapper.find(Day)).toHaveLength(1);
