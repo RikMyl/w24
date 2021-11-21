@@ -12,7 +12,7 @@ describe('Testing Day-component")', () => {
   it("Test 7/2019", () => {
     const wrapper = shallow(<Day month="7" />);
     expect(wrapper.find("div").html()).toEqual(
-      "<div>Month 7/2019 starts Monday</div>"
+      "<div>Month 7/2021 starts Thursday</div>"
     );
   });
 });
