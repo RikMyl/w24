@@ -12,19 +12,19 @@ describe('The business card data")', () => {
   it("Day component return correct weekday data", () => {
     const wrapper = shallow(<Day month="10" />);
     expect(wrapper.find("div").html()).toEqual(
-      "<div>Month 10/2019 starts Tuesday</div>"
+      "<div>Month 10/2021 starts Friday</div>"
     );
   });
   it("Day component return correct weekday data", () => {
     const wrapper = shallow(<Day month="7" />);
     expect(wrapper.find("div").html()).toEqual(
-      "<div>Month 7/2019 starts Monday</div>"
+      "<div>Month 7/2021 starts Thursday</div>"
     );
   });
   it("Day component return correct weekday data", () => {
     const wrapper = shallow(<Day month="12" />);
     expect(wrapper.find("div").html()).toEqual(
-      "<div>Month 12/2019 starts Sunday</div>"
+      "<div>Month 12/2021 starts Wednesday</div>"
     );
   });
 });
